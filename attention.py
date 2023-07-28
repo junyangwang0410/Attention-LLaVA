@@ -21,10 +21,10 @@ import argparse
 
 
 parser = argparse.ArgumentParser()
-parser.add_argument('--checkpoint', type=str, default="/mnt/qz/work/BLIP/LLaVA/ckpt")
-parser.add_argument('--image', type=str, default="/mnt/qz/work/BLIP/mPLUG-Owl/pipeline/image/COCO_val2014_000000261779.jpg")
+parser.add_argument('--checkpoint', type=str)
+parser.add_argument('--image', type=str)
 parser.add_argument('--prompt', type=str, default="Describe this image.")
-parser.add_argument('--output', type=str, default="/mnt/qz/work/BLIP/LLaVA/llava/result")
+parser.add_argument('--output', type=str)
 parser.add_argument('--max-length', type=int, default=64)
 parser.add_argument('--layer', type=int, default=32)
 args = parser.parse_args()
