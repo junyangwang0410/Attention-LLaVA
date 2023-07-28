@@ -1,5 +1,37 @@
 # Attention-LLaVA
 A hot-pluggable tool for visualizing LLaVA's attention.
 
-### Example
-![Dialog](case.png)
+## Example
+
+### Dialog
+<p align="center">
+  <a><img src="https://github.com/junyangwang0410/Attention-LLaVA/blob/main/case.png" width="70%"></a> <br>
+</p>
+
+### Heatmap
+<p align="center">
+  <a><img src="https://github.com/junyangwang0410/Attention-LLaVA/blob/main/heatmap.png" width="70%"></a> <br>
+</p>
+
+### Attention
+<p align="center">
+  <a><img src="https://github.com/junyangwang0410/Attention-LLaVA/blob/main/1_The.jpg" width="20%"><img src="https://github.com/junyangwang0410/Attention-LLaVA/blob/main/2_image.jpg" width="20%"><img src="https://github.com/junyangwang0410/Attention-LLaVA/blob/main/3_features.jpg" width="20%"><img src="https://github.com/junyangwang0410/Attention-LLaVA/blob/main/4_a.jpg" width="20%"><img src="https://github.com/junyangwang0410/Attention-LLaVA/blob/main/5_woman.jpg" width="20%"></a> <br>
+  Token: [The]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Token: [image]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Token: [features]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Token: [a]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Token: [woman]
+</p>
+
+## Usage
+1. Install LLaVA from [Link](https://github.com/haotian-liu/LLaVA).
+2. Put the [attention.py](https://github.com/junyangwang0410/Attention-LLaVA/blob/main/attention.py) into:
+```
+LLaVA-main/llava/eval
+```
+3. Run by this command:
+```
+cd LLaVA-main
+python -m llava.eval.attention \
+  --checkpoint path/to/llava/checkpoint \
+  --image path/to/image \
+  --layer 32 \
+  --output path/to/output/result \
+  --max-length 64
+```
