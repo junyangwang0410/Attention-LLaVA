@@ -16,7 +16,7 @@ A hot-pluggable tool for visualizing LLaVA's attention.
 ### Attention
 <p align="center">
   <a><img src="https://github.com/junyangwang0410/Attention-LLaVA/blob/main/1_The.jpg" width="20%"><img src="https://github.com/junyangwang0410/Attention-LLaVA/blob/main/2_image.jpg" width="20%"><img src="https://github.com/junyangwang0410/Attention-LLaVA/blob/main/3_features.jpg" width="20%"><img src="https://github.com/junyangwang0410/Attention-LLaVA/blob/main/4_a.jpg" width="20%"><img src="https://github.com/junyangwang0410/Attention-LLaVA/blob/main/5_woman.jpg" width="20%"></a> <br>
-  Token: [The]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Token: [image]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Token: [features]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Token: [a]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Token: [woman]
+The attention on the image of the first 5 words which are "The image features a woman".
 </p>
 
 ## Usage
