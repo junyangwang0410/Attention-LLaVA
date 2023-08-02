@@ -153,7 +153,7 @@ def eval_model():
         result.convert('RGB').save(args.output + f'/{i+1}_{token}.jpg')
 
     attention_image = torch.mean(attention_image, dim=1).unsqueeze(1)
-    attention = torch.cat([attention_image, attention[:, 358:]], dim=1).T
+    attention = torch.cat([attention_image, attention[:, 359:]], dim=1).T
     l = len(attention)
     y = ["<Image>"]
     x = []
