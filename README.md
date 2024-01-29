@@ -35,3 +35,5 @@ python -m llava.eval.attention \
   --output path/to/output/result \
   --max-length 64
 ```
+
+https://github.com/junyangwang0410/Attention-LLaVA/blob/main/Mobile-Agent.mp4
